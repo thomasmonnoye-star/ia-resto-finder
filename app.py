@@ -5,7 +5,7 @@ from openai import OpenAI
 # --- CONFIGURATION OPENAI ---
 # ⚠️ Remplace "TA_CLE_API_ICI" par ta vraie clé commençant par sk-proj-...
 # Ne supprime pas les guillemets autour de la clé !
-client = OpenAI(api_key=st.secrets["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"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- DESIGN DE LA PAGE (UX/UI) ---
 # On configure la page pour qu'elle soit plus esthétique
